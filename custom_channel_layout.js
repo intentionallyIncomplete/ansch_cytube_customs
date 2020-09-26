@@ -8,7 +8,7 @@
 
 var lepGifDiv = document.createElement("div");
 lepGifDiv.id = "lepGif";
-lepGifDiv.class = "col-lg-5 col-md-5";
+lepGifDiv.classList.add("col-lg-5 col-md-5");
 
 lepGifDiv.innerHTML = '<img src="https://github.com/intentionallyIncomplete/ansch_cytube_customs/blob/alpha/media_content/leprechaun.gif?raw=true"/>';
 
