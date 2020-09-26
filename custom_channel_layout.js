@@ -6,7 +6,9 @@
 * Version 2020.09.26
 */
 
-let lepGifDiv = $('<div class="col-lg-5 col-md-5" id="lep_gif"><img src="https://github.com/intentionallyIncomplete/ansch_cytube_customs/blob/alpha/media_content/leprechaun.gif?raw=true"></img></div>');
+let lepGifDiv = document.createElement('div');
+var gifDivContent = document.createTextNode('<div class="col-lg-5 col-md-5" id="lep_gif"><img src="https://github.com/intentionallyIncomplete/ansch_cytube_customs/blob/alpha/media_content/leprechaun.gif?raw=true"></img></div>');
+lepGifDiv.appendChild(gifDivContent);
 
 let plr = document.getElementById("playlistrow");
 
