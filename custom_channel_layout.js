@@ -6,15 +6,11 @@
 * Version 2020.09.26
 */
 
-let gifURL = "https://github.com/intentionallyIncomplete/ansch_cytube_customs/blob/alpha/media_content/leprechaun.gif?raw=true";
-
 var lepGifDiv = document.createElement("div");
 lepGifDiv.id = "lepGif";
+lepGifDiv.class = "col-lg-5 col-md-5";
 
-var gifDivContent = document.createElement("img");
-gifDivContent.src = gifURL;
-
-$("#lepGif").append(gifDivContent);
+lepGifDiv.innerHTML = '<img src="https://github.com/intentionallyIncomplete/ansch_cytube_customs/blob/alpha/media_content/leprechaun.gif?raw=true"/>';
 
 var plr = document.getElementById("playlistrow");
 
