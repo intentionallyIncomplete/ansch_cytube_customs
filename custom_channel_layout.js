@@ -7,6 +7,7 @@
 */
 
 let lepGifDiv = $('<div class="col-lg-5 col-md-5" id="lep_gif"></div>');
-lepGifDiv.innerHTML = $('<img src="/media_content/leprechaun.gif"/>');
+let lepGif.createTextNode($('<img src="/media_content/leprechaun.gif"/>'));
+
 
 $('#playlistrow').append(lepGifDiv);
