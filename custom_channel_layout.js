@@ -6,7 +6,8 @@
 * Version 2020.09.26
 */
 
-let lepGifDiv = $('<div class="col-lg-5 col-md-5" id="lep_gif"></div>');
-lepGifDiv.append('<img src="/media_content/leprechaun.gif"/>');
+let lepGifDiv = $('<div class="col-lg-5 col-md-5" id="lep_gif"><img src="https://github.com/intentionallyIncomplete/ansch_cytube_customs/blob/alpha/media_content/leprechaun.gif"/></div>');
 
-$('#playlistrow').append(lepGifDiv);
+// Using insertBefore() to add before first child element.
+var plr = $('#playlistrow');
+plr.insertBefore(lepGifDiv, plr.childNodes[0]);
